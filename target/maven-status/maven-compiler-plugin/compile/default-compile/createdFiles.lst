@@ -24,7 +24,6 @@ com\tjaktor\restshopping\core\entity\Cart.class
 com\tjaktor\restshopping\core\service\dto\user\ChangeUserPasswordDto.class
 com\tjaktor\restshopping\security\user\ApplicationUser.class
 com\tjaktor\restshopping\security\filters\JWTAuthenticationFilter.class
-com\tjaktor\restshopping\api\v1\controller\V1MainController.class
 com\tjaktor\restshopping\api\v1\controller\CustomExceptionHandler.class
 com\tjaktor\restshopping\core\service\dto\mapper\CartDataMapper.class
 com\tjaktor\restshopping\core\service\CartMockData.class

@@ -6,7 +6,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2017-11-18T12:39:23+0200",
+    date = "2017-11-18T13:14:38+0200",
     comments = "version: 1.2.0.Final, compiler: javac, environment: Java 1.8.0_151 (Oracle Corporation)"
 )
 public class UserRolePrivilegeMapperImpl implements UserRolePrivilegeMapper {
