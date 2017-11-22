@@ -4,6 +4,7 @@ import javax.validation.Valid;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -30,6 +31,7 @@ public class UserController {
 	
 	private UserService userService;
 	
+	@Autowired
 	public UserController(UserService userService) {
 		this.userService = userService;
 	}
@@ -53,7 +55,7 @@ public class UserController {
 	 * @param email
 	 * @return
 	 */
-	@RequestMapping(value = "/find-user", method = RequestMethod.GET)
+	@RequestMapping(value = "/email", method = RequestMethod.GET)
 	public ResponseEntity<?> findUserByEmail(@RequestParam("email") String email) {
 		
 		UserDataDto user = this.userService.findByEmail(email);
